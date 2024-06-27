@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&family=VT323&display=swap');
+body{
+    margin: 0;
+    font-family: "Silkscreen", sans-serif;
+}
+
+.login-box{
+    width: 100vw;
+    height: 100vh;
+    background: #291840;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    color:#5A358C;
+    font-size: 2vw;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #5A358C;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #210c22;
+
+}
+
+.card-login > h1{
+    color: #A36BF2;
+    font-weight: 800;
+    margin: 0;
+}
+
+.caixa-texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+}
+
+.caixa-texto > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #3b225b;
+    color: #A36BF2 ;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px -12px #210c22;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.caixa-texto > label {
+    color: #A36BF2 ;
+    margin-bottom: 10px;
+}
+
+.caixa-texto > input::placeholder{
+    color: #A36BF2 ;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #995bd5;
+    background: #3b225b;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #000000b1;
+}
+
+.left-image{
+    width: 35vw;
+}
+
+a {
+        color: #995bd5;
+}
